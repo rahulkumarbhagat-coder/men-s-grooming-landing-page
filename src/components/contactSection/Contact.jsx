@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "animate.css"; // Animations
-import "./Contact.css"; // Custom styles
+import "./contact.css"; // Custom styles
 
 const Contact =() => {
   const [formData, setFormData] = useState({ name: "", email: "", message: "" });
