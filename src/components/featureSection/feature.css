@@ -1,0 +1,43 @@
+.features {
+    background: linear-gradient(135deg, #141414, #1e1e1e);
+    color: white;
+    padding: 4rem 0;
+  }
+  
+  .feature-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #f8d210;
+    text-transform: uppercase;
+  }
+  
+  .feature-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 2rem;
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(255, 215, 0, 0.4);
+  }
+  
+  .feature-icon {
+    font-size: 2.5rem;
+    color: #f8d210;
+    margin-bottom: 1rem;
+  }
+  
+  .feature-heading {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .feature-text {
+    color: #d0d0d0;
+    font-size: 1.1rem;
+  }
+  

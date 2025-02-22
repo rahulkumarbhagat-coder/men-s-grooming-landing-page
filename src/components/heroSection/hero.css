@@ -1,0 +1,72 @@
+/* Hero Section */
+.hero {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(135deg, #0a0a0a, #1a1a1a);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Background Overlay */
+.hero-overlay::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.08) 20%, transparent 80%);
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
+/* Left Side - Text Box */
+.hero-text {
+  position: relative;
+  z-index: 2;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  max-width: 550px; /* Balanced with image */
+}
+
+/* Premium Gold Heading */
+.text-gold {
+  color: #f8d210;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Shop Now Button - Glow Effect */
+.btn-glow {
+  background: linear-gradient(90deg, #f8d210, #ff8c00);
+  color: black;
+  font-weight: bold;
+  padding: 0.8rem 2rem;
+  border-radius: 30px;
+  box-shadow: 0 5px 15px rgba(255, 140, 0, 0.5);
+  transition: transform 0.3s ease-in-out;
+  border: none;
+}
+
+.btn-glow:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 20px rgba(255, 140, 0, 0.8);
+}
+
+/* Right Side - Image */
+.hero-img {
+  max-width: 500px; /* Bigger image */
+  height: auto;
+  filter: drop-shadow(0px 5px 20px rgba(255, 215, 0, 0.5));
+  transition: transform 0.3s ease-in-out;
+}
+
+.hero-img:hover {
+  transform: scale(1.1);
+  filter: brightness(1.2);
+}
