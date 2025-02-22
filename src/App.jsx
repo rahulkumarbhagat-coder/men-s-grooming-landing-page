@@ -1,4 +1,3 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Hero from "./components/heroSection/Hero";
 import Feature from "./components/featureSection/Features";
 import Pricing from "./components/pricingSection/Pricing";
